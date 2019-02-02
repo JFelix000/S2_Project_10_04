@@ -8,10 +8,10 @@
       Case Problem 4
 
       Roads not Taken 
-      Author: 
-      Date:   
+      Author: Jose Felix
+      Date:   2.1.19
 
-      Filename: rnt_poetry.html
+      Filename: index.html
 
    -->
 
@@ -20,6 +20,7 @@
 
       <link href="rnt_base.css" rel="stylesheet" />
       <link href="rnt_styles.css" rel="stylesheet" />
+      <link rel="stylesheet" href="rnt_audio.css" />
             
    </head>
 
@@ -37,6 +38,7 @@
       </header>
 
       <figure>
+         <iframe src="http://www.youtube.com/v/ie2Mspukx14" controls></iframe>
          <figcaption>Robert Frost reads <cite>The Road Not Taken</cite></figcaption>
       </figure>
 
@@ -70,6 +72,12 @@
 
          <section class="poem">
             <h2>Fire and Ice</h2>
+            <audio controls >
+               <source src="rnt_fireice.mp3" type="audio/mp3" />
+               <source src="rnt_fireice.ogg" type="audio/ogg" />
+                  <embed class="old" src="rnt_fireice.mp3" type="audio/mp3" controller autoplay showcontrols autostart default />
+                  <p><em>If your browser does not support HTML5, no embedded audio is supported</em>.</p>
+            </audio>
 
             <p>
                Some say the world will end in fire,<br />
@@ -86,6 +94,11 @@
 
          <section class="poem">
             <h2>Devotion</h2>
+            <audio controls>
+               <source src="rnt_devotion.mp3" type="audio/mp3" />
+               <source src="rnt_devotion.ogg" type="audio/ogg" />
+                  <embed class="old" src="rnt_devotion.mp3" type="audio/mp3" controller autoplay showcontrols autostart default />
+            </audio>
 
             <p>
                The heart can think of no devotion<br />

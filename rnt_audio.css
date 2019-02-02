@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 8
+   Case Problem 4
+
+   Roads Not Taken Audio Styles
+   Author: Jose Felix
+   Date:   2.1.19
+
+   Filename: rnt_audio.css
+
+*/
+
+/* Audio Styles */
+/* This is to affect the styles that are put in the index for the older browsers. Since, they share the same styles I can use a class on the two elements. */
+.old {
+   width: 250px;
+   height: 50px;
+}
+/* This code is short because the shorthand for margin is top/bottom *space* left/right which can be done in one line */
+audio {
+   display: block;
+   box-shadow: darkgrey 8px 8px 15px;
+   margin: 20px auto;
+   width: 80%;
+   -webkit-media-controls-panel: rgb(128, 128, 255);
+}
