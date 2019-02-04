@@ -28,7 +28,7 @@ audio {
    -webkit-media-controls-panel: rgb(128, 128, 255);
    border-radius: 28px;
 }
-
+/* This code was added to make the color change as requested and have a border with the width being 1px, solid, and black. */
 audio::-webkit-media-controls-panel {
     background-color: rgb(128, 128, 255);
     border: 1px solid black;
