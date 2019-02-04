@@ -26,4 +26,10 @@ audio {
    margin: 20px auto;
    width: 80%;
    -webkit-media-controls-panel: rgb(128, 128, 255);
+   border-radius: 28px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(128, 128, 255);
+    border: 1px solid black;
 }
